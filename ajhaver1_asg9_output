@@ -1,0 +1,307 @@
+Last login: Wed Feb 27 20:58:14 on ttys000
+aakashs-mbp:~ virenjhaveri$ cd methods/methods2019/hw
+aakashs-mbp:hw virenjhaveri$ clear 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aakashs-mbp:hw virenjhaveri$ julia ajhaver1_asg9.jl
+Please enter the title for a PubMed article
+Four Diseases, Two Associations, One Patient: A Case of Frontal Fibrosing Alopecia, Lichen Planus Pigmentosus, Acne Rosacea, and Morbihan Disease
+number of words in the title (# words): 20
+unique elements in my array: SubString{String}["Four", "Diseases,", "Two", "Associations,", "One", "Patient:", "A", "Case", "of", "Frontal", "Fibrosing", "Alopecia,", "Lichen", "Planus", "Pigmentosus,", "Acne", "Rosacea,", "and", "Morbihan", "Disease"]
+translated number is: 
+please enter another phrase
+Four Diseases, Two Associations, One Patient: A Case of Frontal Fibrosing Alopecia, Lichen Planus Pigmentosus, Acne Rosacea, and Morbihan Diseases    
+number of words in the title (# words): 20
+unique elements in my array: SubString{String}["Four", "Diseases,", "Two", "Associations,", "One", "Patient:", "A", "Case", "of", "Frontal", "Fibrosing", "Alopecia,", "Lichen", "Planus", "Pigmentosus,", "Acne", "Rosacea,", "and", "Morbihan", "Diseases"]
+translated number is: 
+please enter another phrase
+onc201 in clinical trials with three forms of TRAIL 
+number of words in the title (# words): 10
+unique elements in my array: SubString{String}["onc201", "in", "clinical", "trials", "with", "three", "forms", "of", "TRAIL", ""]
+onc201 starts with a letter
+in starts with a letter
+clinical starts with a letter
+trials starts with a letter
+with starts with a letter
+three starts with a letter
+forms starts with a letter
+of starts with a letter
+TRAIL starts with a letter
+ starts with a letter
+translated number is: 3
+please enter another phrase
+clear 
+number of words in the title (# words): 2
+unique elements in my array: SubString{String}["clear", ""]
+clear starts with a letter
+ starts with a letter
+translated number is: 
+please enter another phrase
+Four Diseases Two Associations One Patient A Case of Frontal Fibrosing Alopecia Lichen Planus Pigmentosus Acne Rosacea and Morbihan Disease
+number of words in the title (# words): 20
+unique elements in my array: SubString{String}["Four", "Diseases", "Two", "Associations", "One", "Patient", "A", "Case", "of", "Frontal", "Fibrosing", "Alopecia", "Lichen", "Planus", "Pigmentosus", "Acne", "Rosacea", "and", "Morbihan", "Disease"]
+translated number is: 
+please enter another phrase
+clear
+number of words in the title (# words): 1
+unique elements in my array: SubString{String}["clear"]
+clear starts with a letter
+translated number is: 
+please enter another phrase
+three 
+number of words in the title (# words): 2
+unique elements in my array: SubString{String}["three", ""]
+three starts with a letter
+ starts with a letter
+translated number is: 3
+please enter another phrase
+four
+number of words in the title (# words): 1
+unique elements in my array: SubString{String}["four"]
+four starts with a letter
+translated number is: 4
+please enter another phrase
+favie 
+number of words in the title (# words): 2
+unique elements in my array: SubString{String}["favie", ""]
+favie starts with a letter
+ starts with a letter
+translated number is: 
+please enter another phrase
+five
+number of words in the title (# words): 1
+unique elements in my array: SubString{String}["five"]
+five starts with a letter
+translated number is: 5
+please enter another phrase
+four diseases two associations one patient a case of frontal fibrosing alopecia lichen planus pigmentosus acne rosacea and morbihan disease
+number of words in the title (# words): 20
+unique elements in my array: SubString{String}["four", "diseases", "two", "associations", "one", "patient", "a", "case", "of", "frontal", "fibrosing", "alopecia", "lichen", "planus", "pigmentosus", "acne", "rosacea", "and", "morbihan", "disease"]
+four starts with a letter
+diseases starts with a letter
+two starts with a letter
+associations starts with a letter
+one starts with a letter
+patient starts with a letter
+a starts with a letter
+case starts with a letter
+of starts with a letter
+frontal starts with a letter
+fibrosing starts with a letter
+alopecia starts with a letter
+lichen starts with a letter
+planus starts with a letter
+pigmentosus starts with a letter
+acne starts with a letter
+rosacea starts with a letter
+and starts with a letter
+morbihan starts with a letter
+disease starts with a letter
+translated number is: 4 2 1
+please enter another phrase
+qqq
+aakashs-mbp:hw virenjhaveri$ clear
+
+aakashs-mbp:hw virenjhaveri$ julia ajhaver1_asg9.jl
+Please enter the title for a PubMed article
+four diseases two associations one patient a case of frontal fibrosing alopecia lichen planus pigmentosus acne rosacea and morbihan disea  
+ERROR: LoadError: syntax: ""Word"" is not a valid function argument name
+Stacktrace:
+ [1] include at ./boot.jl:326 [inlined]
+ [2] include_relative(::Module, ::String) at ./loading.jl:1038
+ [3] include(::Module, ::String) at ./sysimg.jl:29
+ [4] exec_options(::Base.JLOptions) at ./client.jl:267
+ [5] _start() at ./client.jl:436
+in expression starting at /Users/virenjhaveri/methods/methods2019/hw/ajhaver1_asg9.jl:7
+aakashs-mbp:hw virenjhaveri$ clear 
+
+
+
+
+
+
+
+
+
+
+aakashs-mbp:hw virenjhaveri$ julia ajhaver1_asg9.jl
+Please enter the title for a PubMed article
+Four Diseases, Two Associations, One Patient: A Case of Frontal Fibrosing Alopecia, Lichen Planus Pigmentosus, Acne Rosacea, and Morbihan Disease
+number of words in the title (# words): 20
+unique elements in my array: SubString{String}["Four", "Diseases,", "Two", "Associations,", "One", "Patient:", "A", "Case", "of", "Frontal", "Fibrosing", "Alopecia,", "Lichen", "Planus", "Pigmentosus,", "Acne", "Rosacea,", "and", "Morbihan", "Disease"]
+translated number is: 
+please enter another phrase
+qq    
+number of words in the title (# words): 1
+unique elements in my array: SubString{String}["qq"]
+qq starts with a letter
+translated number is: 
+please enter another phrase
+qq
+number of words in the title (# words): 1
+unique elements in my array: SubString{String}["qq"]
+qq starts with a letter
+translated number is: 
+please enter another phrase
+qqq
+aakashs-mbp:hw virenjhaveri$ clear 
+
+aakashs-mbp:hw virenjhaveri$ julia ajhaver1_asg9.jl
+Please enter the title for a PubMed article
+four diseases two associations one patient a case of frontal fibrosing alopecia lichen planus pigmentosus acne rosacea and morbihan disease
+number of words in the title (# words): 20
+unique elements in my array: SubString{String}["four", "diseases", "two", "associations", "one", "patient", "a", "case", "of", "frontal", "fibrosing", "alopecia", "lichen", "planus", "pigmentosus", "acne", "rosacea", "and", "morbihan", "disease"]
+four starts with a letter
+diseases starts with a letter
+two starts with a letter
+associations starts with a letter
+one starts with a letter
+patient starts with a letter
+a starts with a letter
+case starts with a letter
+of starts with a letter
+frontal starts with a letter
+fibrosing starts with a letter
+alopecia starts with a letter
+lichen starts with a letter
+planus starts with a letter
+pigmentosus starts with a letter
+acne starts with a letter
+rosacea starts with a letter
+and starts with a letter
+morbihan starts with a letter
+disease starts with a letter
+translated number is: 4 2 1
+please enter another phrase
+genome-wide association study identifies 74 loci associated with educational attainment.
+number of words in the title (# words): 10
+unique elements in my array: SubString{String}["genome-wide", "association", "study", "identifies", "74", "loci", "associated", "with", "educational", "attainment."]
+genome-wide starts with a letter
+genome-wide ends with a period
+association starts with a letter
+association ends with a period
+study starts with a letter
+study ends with a period
+identifies starts with a letter
+identifies ends with a period
+74 starts with a letter
+74 ends with a period
+loci starts with a letter
+loci ends with a period
+associated starts with a letter
+associated ends with a period
+with starts with a letter
+with ends with a period
+educational starts with a letter
+educational ends with a period
+attainment. starts with a letter
+attainment. ends with a period
+translated number is: 
+please enter another phrase
+six ways for governments to get value from health IT.
+number of words in the title (# words): 10
+unique elements in my array: SubString{String}["six", "ways", "for", "governments", "to", "get", "value", "from", "health", "IT."]
+six starts with a letter
+six ends with a period
+ways starts with a letter
+ways ends with a period
+for starts with a letter
+for ends with a period
+governments starts with a letter
+governments ends with a period
+to starts with a letter
+to ends with a period
+get starts with a letter
+get ends with a period
+value starts with a letter
+value ends with a period
+from starts with a letter
+from ends with a period
+health starts with a letter
+health ends with a period
+IT. starts with a letter
+IT. ends with a period
+translated number is: 6
+please enter another phrase
+prosthetic joint infection following hip fracture and degenerative hip disorder: a cohort study of three thousand, eight hundred and seven consecutive hip arthroplasties with a minimum follow-up of five years
+number of words in the title (# words): 30
+unique elements in my array: SubString{String}["prosthetic", "joint", "infection", "following", "hip", "fracture", "and", "degenerative", "disorder:", "a", "cohort", "study", "of", "three", "thousand,", "eight", "hundred", "seven", "consecutive", "arthroplasties", "with", "minimum", "follow-up", "five", "years"]
+prosthetic starts with a letter
+joint starts with a letter
+infection starts with a letter
+following starts with a letter
+hip starts with a letter
+fracture starts with a letter
+and starts with a letter
+degenerative starts with a letter
+hip starts with a letter
+disorder: starts with a letter
+a starts with a letter
+cohort starts with a letter
+study starts with a letter
+of starts with a letter
+three starts with a letter
+thousand, starts with a letter
+eight starts with a letter
+hundred starts with a letter
+and starts with a letter
+seven starts with a letter
+consecutive starts with a letter
+hip starts with a letter
+arthroplasties starts with a letter
+with starts with a letter
+a starts with a letter
+minimum starts with a letter
+follow-up starts with a letter
+of starts with a letter
+five starts with a letter
+years starts with a letter
+translated number is: 3 8 7 5
+please enter another phrase
+3D visualization environment for analysis of telehealth indicators in public health.
+number of words in the title (# words): 11
+unique elements in my array: SubString{String}["3D", "visualization", "environment", "for", "analysis", "of", "telehealth", "indicators", "in", "public", "health."]
+3D starts with a number
+3D ends with a period
+visualization starts with a number
+visualization ends with a period
+environment starts with a number
+environment ends with a period
+for starts with a number
+for ends with a period
+analysis starts with a number
+analysis ends with a period
+of starts with a number
+of ends with a period
+telehealth starts with a number
+telehealth ends with a period
+indicators starts with a number
+indicators ends with a period
+in starts with a number
+in ends with a period
+public starts with a number
+public ends with a period
+health. starts with a number
+health. ends with a period
+translated number is: 
+please enter another phrase
+
